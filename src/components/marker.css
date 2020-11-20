@@ -1,0 +1,30 @@
+.pin {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background: white;
+}
+.pin:after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  margin: 8px 0 0 8px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.map__container {
+  width: 100%;
+  height: 50vh;
+  margin-left: auto;
+  margin-top: 1rem;
+  margin-right: auto;
+}
